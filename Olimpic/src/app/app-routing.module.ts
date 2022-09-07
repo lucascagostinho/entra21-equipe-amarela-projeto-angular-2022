@@ -6,6 +6,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
+import { AboutComponent } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
 
 const routes: Routes = [
   { path: "header", component: HeaderComponent },
@@ -14,6 +16,8 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "login", component: LoginComponent },
   { path: "settings", component: SettingsComponent},
+  { path: "about", component: AboutComponent},
+  { path: "faq", component: FaqComponent}
 ];
 
 @NgModule({

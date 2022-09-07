@@ -9,6 +9,8 @@ import { ProfileComponent } from './profile/profile.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { SettingsComponent } from './settings/settings.component';
+import { AboutComponent } from './about/about.component';
+import { FaqComponent } from './faq/faq.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { SettingsComponent } from './settings/settings.component';
     RegisterComponent,
     LoginComponent,
     SettingsComponent,
+    AboutComponent,
+    FaqComponent,
     
   ],
   imports: [
