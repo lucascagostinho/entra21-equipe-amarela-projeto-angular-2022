@@ -1,3 +1,4 @@
+import { SettingsComponent } from './settings/settings.component';
 import { LoginComponent } from './login/login.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: "profile", component: ProfileComponent },
   { path: "register", component: RegisterComponent },
   { path: "login", component: LoginComponent },
+  { path: "settings", component: SettingsComponent},
 ];
 
 @NgModule({
