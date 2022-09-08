@@ -1,0 +1,21 @@
+.container {
+    width: 50vw;
+    height: 70vh;
+    background: #ebeef0;
+    display: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-principal {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: medium;
+    margin: 0 0 1em;
+    clear: left;
+    color: rgb(0, 0, 0);
+}
+
+
+
