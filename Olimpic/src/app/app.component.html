@@ -1,12 +1,25 @@
-<div>
-  <app-header></app-header>
-</div>
+<body class="hold-transition sidebar-mini"><div>
+    <app-header></app-header>
+  </div>
 
 
-<div>
-  <router-outlet></router-outlet>
-</div>
+  <div class="min-vh-100">
+    <section class="content">
+      <div class="">
+        <div class="row">
+          <div class="col">
+            <div class="card mt-5 p-4">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
 
 
+  <footer class="main-footer ms-4">
+   </footer>
 
+</body>
