@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { SettingsComponent } from './settings/settings.component';
 import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { FaqComponent } from './faq/faq.component';
     SettingsComponent,
     AboutComponent,
     FaqComponent,
+    FooterComponent,
     
   ],
   imports: [
