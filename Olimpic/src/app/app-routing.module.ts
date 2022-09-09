@@ -12,6 +12,7 @@ import { FaqComponent } from './faq/faq.component';
 const routes: Routes = [
   { path: "header", component: HeaderComponent },
   { path: "home", component: HomeComponent },
+  { path: "", component: HomeComponent },
   { path: "profile", component: ProfileComponent },
   { path: "register", component: RegisterComponent },
   { path: "login", component: LoginComponent },
